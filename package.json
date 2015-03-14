@@ -1,0 +1,30 @@
+{
+  "name": "fat-arrow",
+  "version": "1.0.0",
+  "description": "Easy returns for if you don't have a () => around",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/fat-arrow",
+  "keywords": [
+    "return",
+    "promise",
+    "fat arrow",
+    "closure"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "es6-promise": "^2.0.1",
+    "istanbul": "^0.3.7",
+    "standard": "^2.11.0",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
