@@ -4,6 +4,7 @@ const fa = require('./')
 
 test('', function (t) {
   t.plan(1)
+
   Promise.resolve('myVal')
     .then(asyncAction)
     .then(function (val) {
